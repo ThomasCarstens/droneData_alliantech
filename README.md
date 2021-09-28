@@ -1,8 +1,14 @@
 # drone_data_alliantech
 Drone data and other data collected at Alliantech.
 
-# READ THE DOCS
-⚠️ Requires: linux,github, docker.
+# RESOURCES AND LINKS
+
+* DRONE DATA, ETAT DE L’ART, BOITIERS, RAPPORTS ET SUPPORTS IMPRIMES: 
+> Google Drive partage avec Alliantech.
+
+* PX4 DEVELOPER ENVIRONMENT 
+> https://docs.px4.io/master/en/dev_setup/dev_env.html 
+> ⚠️ Requires: linux,github, docker.
 
 * LOGGING:
 > https://docs.px4.io/master/en/dev_log/logging.html 
@@ -12,15 +18,9 @@ Drone data and other data collected at Alliantech.
 > The data-logging activation file was coded in C++, and compiled into an executable via the MAVLink protocol. 
 > During operation, it simply toggles a pin (FMU Channel 6), which can then be detected by the data acquisition system in order to begin and end the logging. 
 
-
 * CIRCUIT SUR DRONE: 
 > https://docs.px4.io/master/en/flight_controller/pixhawk4.html#serial-port-mapping 
 
-* PX4 DEVELOPER ENVIRONMENT 
-> https://docs.px4.io/master/en/dev_setup/dev_env.html 
-
-* DRONE DATA, ETAT DE L’ART, BOITIERS, RAPPORTS ET SUPPORTS IMPRIMES: 
-> Google Drive partage avec Alliantech.
 
 # LES COMMANDES UTILES LORS D’UN VOL
 
