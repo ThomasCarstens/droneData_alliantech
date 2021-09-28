@@ -9,6 +9,9 @@ Drone data and other data collected at Alliantech.
 
 * EXECUTABLES: 
 > https://docs.px4.io/master/en/modules/hello_sky.html 
+> The data-logging activation file was coded in C++, and compiled into an executable via the MAVLink protocol. 
+> During operation, it simply toggles a pin (FMU Channel 6), which can then be detected by the data acquisition system in order to begin and end the logging. 
+
 
 * CIRCUIT SUR DRONE: 
 > https://docs.px4.io/master/en/flight_controller/pixhawk4.html#serial-port-mapping 
@@ -29,11 +32,6 @@ OPEN NSH CONSOLE. ⚠️ Requires: DAQ Connected to D11 PIN
     nsh> px4_slice_disconnect
 ### SET PIN (1) TO START LOGGING
     nsh> px4_slice_disconnect
-
-The data-logging activation file was coded in C++, and compiled into an executable via the MAVLink protocol. 
-During operation, it simply toggles a pin (FMU Channel 6), which can then be detected by the data acquisition system in order to begin and end the logging. 
-The executables are named as above.
-
 
 # LES COMMANDES UTILES POUR ORGANISER LES LOGS / GROUNDSTATION
 
