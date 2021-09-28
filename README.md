@@ -1,15 +1,19 @@
 # drone_data_alliantech
 Drone data and other data collected at Alliantech.
 
+# READ THE DOCS
+⚠️ Requires: linux,github, docker.
+
 * LOGGING:
 > https://docs.px4.io/master/en/dev_log/logging.html 
+
 * EXECUTABLES: 
 > https://docs.px4.io/master/en/modules/hello_sky.html 
 
 * CIRCUIT SUR DRONE: 
 > https://docs.px4.io/master/en/flight_controller/pixhawk4.html#serial-port-mapping 
 
-* PX4 DEVELOPER ENVIRONMENT ⚠️ Requires: linux,github, docker.
+* PX4 DEVELOPER ENVIRONMENT 
 > https://docs.px4.io/master/en/dev_setup/dev_env.html 
 
 * DRONE DATA, ETAT DE L’ART, BOITIERS, RAPPORTS ET SUPPORTS IMPRIMES: 
@@ -19,7 +23,8 @@ Drone data and other data collected at Alliantech.
 
 
 ## Pour lancer l'acquisition de donnees
-⚠️ Requires: DAQ Connected to D11 PIN || OPEN NSH CONSOLE
+OPEN NSH CONSOLE. ⚠️ Requires: DAQ Connected to D11 PIN 
+
 ### RESET PIN (0) AT STARTUP, THEN POWER UP DAQ
     nsh> px4_slice_disconnect
 ### SET PIN (1) TO START LOGGING
