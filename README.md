@@ -1,5 +1,5 @@
-# drone_data_alliantech
-Drone data and other data collected at Alliantech.
+# droneData_alliantech
+Documentation of resources used during Drone Internship.
 
 # RESOURCES AND LINKS
 
