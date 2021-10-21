@@ -65,6 +65,8 @@ OPEN NSH CONSOLE. ⚠️ Requires: DAQ Connected to D11 PIN
     rosbag play xr1.bag -l -a
 
 ## Pour extraire un csv d'un rosbag
-
+### One topic
     rostopic echo -b xr1.bag -p /tf >> xr1.csv
+### All topics
+    for topic in `rostopic list -b bagfile.bag` ; do rostopic echo -p -b bagfile.bag $topic >bagfile-${topic//\//_}.csv ; done
 
