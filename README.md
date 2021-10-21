@@ -58,7 +58,7 @@ OPEN NSH CONSOLE. ⚠️ Requires: DAQ Connected to D11 PIN
     cd Documents/qgroundcontrol/build/staging
     ./qgroundcontrol
 
-# LES COMMANDES UTILES POUR LA LOCALIZATION EXTERNE
+# LES COMMANDES UTILES POUR LIRE LES LOGS ROS
 
 ## Pour executer un rosbag
 
@@ -70,3 +70,5 @@ OPEN NSH CONSOLE. ⚠️ Requires: DAQ Connected to D11 PIN
 ### All topics
     for topic in `rostopic list -b bagfile.bag` ; do rostopic echo -p -b bagfile.bag $topic >bagfile-${topic//\//_}.csv ; done
 
+## Timers
+https://roboticsbackend.com/how-to-use-a-ros-timer-in-python-to-publish-data-at-a-fixed-rate/
