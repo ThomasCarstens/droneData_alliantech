@@ -1,0 +1,18 @@
+Test Description:	Sine3/Run4
+Untitled Test Note
+Absolute Time            Test Time                Event Type               Freq. (Hz)               Ctrl./Target Peak        Event Data     Event Source             
+Swept Sine Test Run Log 15:23:48, 17/08/2021
+Sine3: No description
+Run description: Sine3/Run4
+Untitled Test Note
+15:23:48, 17/08/2021     00:00:00                 Start Schedule           0,00                                              0              User Cmd                 
+15:23:48                 00:00:00                 Schedule Sweep           50,00                                             100,00%        Schedule                 
+15:23:53                 00:00:05                 Flash Screen and Beep    50,00                                             0              Action                   
+15:28:01                 00:00:00                 System Alarm             0,00                                              Monitor Chnl. Lost:X(1) System                   
+15:28:00                 00:04:12                 Flash Screen and Beep    842,44                                            0              Action                   
+15:28:43                 00:00:00                 System Alarm             0,00                                              Monitor Chnl. Lost:X(1) System                   
+15:28:43                 00:04:55                 Flash Screen and Beep    1378,86                                           0              Action                   
+15:29:06                 00:05:18                 Stop the Test            1247,44                  0,300/0,300 g                           User Cmd                 
+15:29:06                 00:05:18                 Flash Screen and Beep    1247,44                                           0              Action                   
+15:29:06                 00:05:18                 User Abort               1247,44                  0,300/0,300 g            1              System                   
+Schedule not finished: User Abort; Full level elapsed: 00:05:10; Total elapsed: 00:05:18

@@ -1,0 +1,15 @@
+subscribed to [/tf]
+average rate: 119.764
+	min: 0.004s max: 0.014s std dev: 0.00158s window: 119
+average rate: 119.983
+	min: 0.000s max: 0.016s std dev: 0.00156s window: 240
+average rate: 120.000
+	min: 0.000s max: 0.016s std dev: 0.00142s window: 360
+average rate: 119.992
+	min: 0.000s max: 0.020s std dev: 0.00164s window: 480
+average rate: 119.983
+	min: 0.000s max: 0.020s std dev: 0.00160s window: 600
+average rate: 119.984
+	min: 0.000s max: 0.020s std dev: 0.00155s window: 720
+average rate: 120.019
+	min: 0.000s max: 0.020s std dev: 0.00149s window: 829

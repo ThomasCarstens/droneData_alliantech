@@ -1,0 +1,17 @@
+Test Description:	Sine3/Run2
+Untitled Test Note
+Absolute Time            Test Time                Event Type               Freq. (Hz)               Ctrl./Target Peak        Event Data     Event Source             
+Swept Sine Test Run Log 15:02:16, 17/08/2021
+Sine3: No description
+Run description: Sine3/Run2
+Untitled Test Note
+15:02:16, 17/08/2021     00:00:00                 Start Schedule           0,00                                              0              User Cmd                 
+15:02:16                 00:00:00                 Schedule Sweep           50,00                                             100,00%        Schedule                 
+15:02:20                 00:00:05                 Flash Screen and Beep    50,00                                             0              Action                   
+15:03:52                 00:00:00                 System Alarm             0,00                                              Ctrl. Chnl. Lost:Drive_Z(1) System                   
+15:03:51                 00:01:36                 Control Channel Lost     138,29                   0,300/0,300 g            Drive_Z        System                   
+15:03:51                 00:01:36                 Channel Lost             138,29                   0,300/0,300 g            32768          System                   
+15:03:51                 00:01:36                 Pause Test               138,29                   0,300/0,300 g            Control Channel LostAction                   
+15:03:52                 00:01:37                 Flash Screen and Beep    138,29                                            0              Action                   
+15:17:30                 00:00:00                 System Alarm             0,00                                              Ctrl. Chnl. Lost:Drive_Z(1) System                   
+Schedule not finished: User Abort; Full level elapsed: 00:01:28; Total elapsed: 00:01:36

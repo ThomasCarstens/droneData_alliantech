@@ -1,0 +1,22 @@
+Test Description:	Sine3/Run1
+Untitled Test Note
+Absolute Time            Test Time                Event Type               Freq. (Hz)               Ctrl./Target Peak        Event Data     Event Source             
+Swept Sine Test Run Log 14:49:08, 17/08/2021
+Sine3: No description
+Run description: Sine3/Run1
+Untitled Test Note
+14:49:08, 17/08/2021     00:00:00                 Start Schedule           0,00                                              0              User Cmd                 
+14:49:08                 00:00:00                 Schedule Sweep           50,00                                             100,00%        Schedule                 
+14:49:12                 00:00:05                 Flash Screen and Beep    50,00                                             0              Action                   
+14:49:16                 00:00:00                 System Alarm             0,00                                              Monitor Chnl. Lost:X(1) System                   
+14:49:16                 00:00:08                 Flash Screen and Beep    50,01                                             0              Action                   
+14:49:57                 00:00:00                 System Alarm             0,00                                              Monitor Chnl. Lost:X(1) System                   
+14:49:56                 00:00:49                 Flash Screen and Beep    80,09                                             0              Action                   
+14:53:15                 00:00:00                 System Alarm             0,00                                              Monitor Chnl. Lost:X(1) System                   
+14:53:15                 00:04:07                 Flash Screen and Beep    796,31                                            0              Action                   
+14:55:41                 00:06:33                 Stop the Test            877,75                   0,299/0,300 g                           System                   
+14:55:41                 00:06:33                 Flash Screen and Beep    877,75                                            0              Action                   
+14:55:48                 00:06:40                 Stop the Test            877,75                   0,299/0,300 g                           System                   
+14:55:48                 00:06:40                 Flash Screen and Beep    877,75                                            0              Action                   
+14:55:49                 00:06:41                 Stop the Test            877,75                   0,299/0,300 g                           System                   
+Schedule not finished: User Abort; Full level elapsed: 00:05:41; Total elapsed: 00:05:49
